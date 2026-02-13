@@ -1,0 +1,50 @@
+[
+  {
+    "id": "recAGJfiU4CeaV0AB",
+    "description": "Developed Web applications with the technologies HTML5, CSS/CSS3, Preprocessor SASS.",
+    "image": "images/img1.jpg",
+    "cta": "Preview",
+    "href": "https://www.vinsol.com/",
+    "target": "_blank"
+  },
+  {
+    "id": "recAGJfiU4CeaV0CD",
+    "description": "Backend developers integrated react js concept in this project. I integrated HTML, CSS, SASS concept after coordinated with them.",
+    "image": "images/img2.jpg",
+    "cta": "Preview",
+    "href": "https://www.swagmagic.com/",
+    "target": "_blank"
+  },
+  {
+    "id": "recAGJfiU4CeaV0EF",
+    "description": "Developed Web applications with the technologies HTML5, CSS/CSS3, Preprocessor SASS.",
+    "image": "images/img3.jpg",
+    "cta": "Preview",
+    "href": "https://www.snackmagic.com/in/en",
+    "target": "_blank"
+  },
+  {
+    "id": "recAGJfiU4CeaV0GH",
+    "description": "Developed Web applications with the technologies HTML5, CSS/CSS3, Preprocessor SASS.",
+    "image": "images/img4.jpg",
+    "cta": "Preview",
+    "href": "https://www.bystadium.com/",
+    "target": "_blank"
+  },
+  {
+    "id": "recAGJfiU4CeaV0IJ",
+    "description": "Implemented technologies like, HTML5, CSS3, SASS, Bootstrap, Ajax, JQuery, micro- Animations to developed this web application to make interactive.",
+    "image": "images/img5.jpg",
+    "cta": "Preview",
+    "href": "https://awardfellowships.org/",
+    "target": "_blank"
+  },
+  {
+    "id": "recAGJfiU4CeaV0KL",
+    "description": "Integrated Trends, facts and figure API data from json file. I also managed category filter data for country, year and tags wise and show this on the web page based on json data.",
+    "image": "images/img6.jpg",
+    "cta": "Preview",
+    "href": "https://globalwica.org/",
+    "target": "_blank"
+  }
+]

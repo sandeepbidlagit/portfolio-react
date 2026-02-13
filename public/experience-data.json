@@ -1,0 +1,80 @@
+[
+  {
+    "id": "recAGJfiU4CeaV0HL",
+    "order": 3,
+    "title": "UI Developer",
+    "state": "Kerala",
+    "dates": "18 October 2023 – Present",
+    "duties": [
+      "Implemented technologies like, HTML5, CSS3, SASS, Bootstrap, Ajax, JQuery, BootStrap.",
+      "Led the development of a customer- centric digital experience resulting in a 15% increase in client satisfaction.",
+      "Prioritized and managed multiple projects to meet strict deadline, decreasing project overruns by 30%.",
+      "Implemented JSON API Data for Front End Applications Using Fetch Promise."
+    ],
+    "company": "PanApps"
+  },
+  {
+    "id": "recIL6mJNfWObonls",
+    "order": 2,
+    "title": "Software Engineer",
+    "state": "Hyderabad",
+    "dates": "20 September 2022 – 20 July 2023",
+    "duties": [
+      "Implemented Front End technologies like, HTML5, CSS3, code for Building the web Applications.",
+      "Worked extensively in designing, prototyping and building interactive user interface.",
+      "Collaborated with design and product teams to define feature specification and develop high quality deliverables."
+    ],
+    "company": "Mitratech"
+  },
+  {
+    "id": "rec61x18GVY99hQq5",
+    "order": 1,
+    "title": "UI Developer",
+    "state": "Delhi",
+    "dates": "27 September 2021 – 05 July 2022",
+    "duties": [
+      "Played key role in team of developers to build and optimize web applications.",
+      "Customized web Application using technologies, HTML5, CSS/CSS3, Pre-processor SASS.",
+      "Implemented style look and feel of web page with SASS that extend CSS with dynamic behavior such as variable, mixing, nested Operations",
+      "Developed 10 + front-end features using HTML5, CSS3 and SASS, improving website accessibility.",
+      "Experience of building rich, high performance, responsive and cross-browser UI."
+    ],
+    "company": "Vinsol"
+  },
+  {
+    "id": "rec61x18GVY99hQq6",
+    "order": 1,
+    "title": "UI Developer",
+    "state": "Delhi",
+    "dates": "3 Sept 2019 – 29 April 2020",
+    "duties": [
+      "Conceptualize and create intuitive, engaging, and brand-consistent web experiences.",
+      "Sliced PSD files sent from the client and used HTML, CSS, Bootstrap. Also Making HTML E-mailers with the experience of E-commerce website"
+    ],
+    "company": "Sakshem IT"
+  },
+  {
+    "id": "rec61x18GVY99hQq7",
+    "order": 1,
+    "title": "Web Designer",
+    "state": "Delhi",
+    "dates": "3 Sept 2019 – 29 April 2020",
+    "duties": [
+      "Developed websites with Adobe Photoshop allowing the developing team to create reusable components that can be easily used to build out the sites.",
+      "SUsed HTML to develop custom website that would be applied to community forums and blogs."
+    ],
+    "company": "Soft Info"
+  },
+  {
+    "id": "rec61x18GVY99hQq8",
+    "order": 1,
+    "title": "Web Designer",
+    "state": "Delhi",
+    "dates": "Sept 2017 – 12 August 2019",
+    "duties": [
+      "Collaborated with a web designer to program the entire site using PSD to HTML files.",
+      "Used HTML to develop custom website that would be applied to community forums and blogs."
+    ],
+    "company": "Krayons"
+  }
+]
