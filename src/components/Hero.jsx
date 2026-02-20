@@ -6,7 +6,7 @@ const Hero = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("/hero.json");
+      const response = await fetch("/portfolio-react/hero.json");
       if (!response.ok) {
         throw new error(`HTTPS error ! status ${response.status}`)
       }
@@ -23,7 +23,7 @@ const Hero = () => {
     <>
       <section id="home" className="section">
         {hero.map((items) => {
-          const { id, image, title, text,  description } = items;
+          const { id, image, title, text, description } = items;
           return (
             <div className='hero' key={id}>
               <img className="hero-img" src={image} alt={title} />
@@ -36,6 +36,16 @@ const Hero = () => {
           )
         })}
 
+        {/* Indicator */}
+        <div className="index-page-scroll-indicator"
+          onClick={() => {
+            const aboutSection = document.getElementById("about");
+            aboutSection?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          <div className="index-page-scroll-indicator-arrow">Mouse</div>
+        </div>
+        {/* Indicator */}
       </section>
     </>
   )

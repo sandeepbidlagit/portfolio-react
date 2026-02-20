@@ -8,7 +8,8 @@ const Work = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("/work.json");
+      // const response = await fetch("/work.json");
+      const response = await fetch("/portfolio-react/work.json");
       if (!response.ok) {
         throw new error(`HTTPS error ! status ${response.status}`)
       }

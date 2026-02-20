@@ -10,7 +10,8 @@ const Experience = () => {
   const fetchData = async () => {
     setLoading(true)
     try {
-      const response = await fetch("/experience-data.json");
+      // const response = await fetch("/experience-data.json");
+      const response = await fetch("/portfolio-react/experience-data.json");
       if (!response.ok) {
         throw new error(`HTTPS error ! status ${response.status}`)
       }

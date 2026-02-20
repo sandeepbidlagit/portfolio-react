@@ -30,16 +30,19 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className={`navbar ${isSticky ? 'sticky': ''}`}>
+    <nav className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <div className='container-fluid'>
         <div className="logo">Sandeep.</div>
         <div className={`menu ${isOpen ? 'open' : ''}`}>
-          {['home', 'about', 'experience', 'work', 'contact'].map((section) => (
+          {['home', 'about', 'experience', 'work', 'contact'].map((section, index) => (
             <a
               key={section}
               href={`#${section}`}
               onClick={(e) => handleScroll(e, section)}
             >
+              <span className="menu-number">
+                {String(index + 1).padStart(2, '0')}.&nbsp;
+              </span>
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </a>
           ))}

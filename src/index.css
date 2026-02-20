@@ -39,6 +39,7 @@ Variables
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
+  --clr-grey-11: #5d6cb6;
   --indigo-500-main: #3e57da;
   --base-dark: #0d0f2c;
   --transition: all 0.3s linear;
@@ -92,7 +93,6 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   scroll-behavior: smooth;
-  /* padding-top: 60px; */
 }
 
 .dialog-off-canvas-main-canvas {
@@ -105,7 +105,6 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
-  /* height of fixed navbar */
 }
 
 ul {
@@ -183,11 +182,13 @@ p {
   margin: 0 auto;
   padding: 0 16px;
 }
+
 .container-fluid {
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
 }
+
 .section {
   height: 100vh;
   box-sizing: border-box;
@@ -331,9 +332,13 @@ p {
 }
 
 .menu a {
-  color: hsl(209, 34%, 30%);
+  color: var(--base-dark);
   text-decoration: none;
   font-size: 1em;
+}
+
+.menu-number {
+  color: var(--clr-grey-11);
 }
 
 .hamburger {
@@ -359,6 +364,7 @@ p {
   padding: 0 9px 0 0px;
   display: flex;
   align-items: center;
+  color: var(--base-dark);
 }
 
 .contact-detls p span {
@@ -611,6 +617,105 @@ p {
 /* My work */
 
 
+/*------------Mouse scroll in banner----------------*/
+.mouse-center {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.mouse-center::after {
+  content: 'Scroll Down';
+  position: absolute;
+  bottom: 35px;
+  color: var(--indigo-500-main);
+  font-size: 12px;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-regular);
+  margin-left: 22px;
+}
+
+.index-page-scroll-indicator {
+  border: solid 0.125em var(--indigo-500-main);
+  display: inline-block;
+  width: 1.35em;
+  height: 2.5em;
+  border-radius: 0.938em;
+  position: absolute;
+  bottom: 59px;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.index-page-scroll-indicator:hover {
+  border: solid 0.125em var(--indigo-500-main);
+}
+
+.index-page-scroll-indicator-arrow {
+  display: block;
+  height: 12px;
+  width: 0.188em;
+  margin: auto;
+  background-color: var(--indigo-500-main);
+  text-indent: -9999px;
+  animation: 1.8s ease infinite scroll-indicator;
+  -webkit-animation: 1.8s ease infinite scroll-indicator;
+  -moz-animation: 1.8s ease infinite scroll-indicator;
+}
+
+
+@keyframes scroll-indicator {
+  0% {
+    margin-top: 1.25em;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0.125em;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scroll-indicator {
+  0% {
+    margin-top: 1.25em;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0.125em;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes scroll-indicator {
+  0% {
+    margin-top: 1.25em;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0.125em;
+    opacity: 0;
+  }
+}
+
+/*------------Mouse scroll in banner----------------*/
+
+
 /* Responsive menu */
 @media (min-width: 1280px) {
   .hero-title {
@@ -695,6 +800,11 @@ p {
   .menu a {
     color: var(--clr-white);
   }
+
+  .menu-number {
+    color: var(--clr-white);
+  }
+
 
   .hamburger {
     display: block;
